@@ -3203,7 +3203,7 @@ form .has-error .form-control{
 	top: 25px;
 }
 
-.preloader{
+.preload{
 	position:fixed;
 	top:0;
 	left:0;
@@ -3214,7 +3214,7 @@ form .has-error .form-control{
 	opacity: .7;
 	display: none;
 }
-.preloader img{
+.preload img{
 	position:relative;
 	left:50%;
 	top:50vh;

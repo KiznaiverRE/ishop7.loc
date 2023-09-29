@@ -1,11 +1,11 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        Список заказов
+        Список товаров
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
-        <li class="active">Список заказов</li>
+        <li class="active">Список товаров</li>
     </ol>
 </section>
 
@@ -20,27 +20,24 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Покупатель</th>
+                                <th>Категория</th>
+                                <th>Наименование</th>
+                                <th>Цена</th>
                                 <th>Статус</th>
-                                <th>Сумма</th>
-                                <th>Дата создания</th>
-                                <th>Дата изменения</th>
                                 <th>Действия</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php foreach($orders as $order): ?>
-                                <?php $class = $order['status'] == 'closed' ? 'success' : ''; ?>
-                                <tr class="<?=$class;?>">
-                                    <td><?=$order['id'];?></td>
-                                    <td><?=$order['name'];?></td>
-                                    <td><?=$order['status'] == 'closed' ? 'Завершен' : 'Новый';?></td>
-                                    <td><?=$order['sum'];?> <?=$order['currency'];?></td>
-                                    <td><?=$order['date'];?></td>
-                                    <td><?=$order['update_at'];?></td>
+                            <?php foreach($products as $product): ?>
+                                <tr>
+                                    <td><?=$product['id'];?></td>
+                                    <td><?=$product['cat'];?></td>
+                                    <td><?=$product['title'];?></td>
+                                    <td><?=$product['price'];?></td>
+                                    <td><?=$product['status'] ? 'On' : 'Off';?></td>
                                     <td>
-                                        <a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
-                                        <a class="text-danger delete" href="<?=ADMIN;?>/order/delete?id=<?=$order['id'];?>"><i class="fa fa-fw fa-close"></i></a>
+                                        <a href="<?=ADMIN;?>/product/edit?id=<?=$product['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
+                                        <a class="text-danger delete" href="<?=ADMIN;?>/product/delete?id=<?=$product['id'];?>"><i class="fa fa-fw fa-close"></i></a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
@@ -48,7 +45,7 @@
                         </table>
                     </div>
                     <div class="text-center">
-                        <p>(<?=count($orders);?> заказа(ов) из <?=$count;?>)</p>
+                        <p>(<?=count($products);?> товар(ов) из <?=$count;?>)</p>
                         <?php if($pagination->countPages > 1): ?>
                             <?=$pagination;?>
                         <?php endif; ?>

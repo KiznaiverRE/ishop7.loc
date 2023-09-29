@@ -11,7 +11,7 @@ class ProductController extends AppController
 {
     public function viewAction(){
         $alias = $this->route['alias'];
-        $product = \R::findOne('product', "alias = ? AND status = '1'", [$alias]); // Обязательно экранируем данные от пользователя
+        $product = \R::findOne('product', "alias = ? AND status = 'publish'", [$alias]); // Обязательно экранируем данные от пользователя
         //Выбрасываем исключение, если продукт не найден
         if (!$product){
             throw new \Exception('Товар ' . $alias . ' не найден', 404);

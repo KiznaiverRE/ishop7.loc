@@ -58,12 +58,13 @@ class CartController extends AppController
     }
 
     public function viewAction(){
+        debug($_SESSION);
         $this->setMeta('Корзина');
     }
 
     public function checkoutAction(){
         if (!empty($_POST)){
-            // регистрация пользователья
+            // регистрация пользователя
             if (!User::checkAuth()){
                 $user = new User();
                 $data = $_POST;
