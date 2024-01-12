@@ -20,10 +20,6 @@ class CategoryController extends AppController
             throw new \Exception('Страница не найдена', 404);
         }
 
-
-
-
-
         //Хлебные крошки
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
 
@@ -50,7 +46,6 @@ class CategoryController extends AppController
                 $cnt = Filter::getCountGroups($filter);
                 $sql_part = "AND id IN (SELECT product_id FROM attribute_product WHERE attr_id IN ($filter) GROUP BY product_id HAVING COUNT(product_id) = $cnt)";
             }
-
         }
 
 
@@ -59,7 +54,7 @@ class CategoryController extends AppController
         $start = $pagination->getStart();
 
 
-        $products = R::find('product', "category_id IN ($ids) $sql_part LIMIT $start, $perPage");
+        $products = R::find('product', "status = 'publish' AND category_id IN ($ids) $sql_part LIMIT $start, $perPage");
 //        debug($products);
         if ($this->isAjax()){
             $this->loadView('filter', compact('products', 'pagination', 'total'));

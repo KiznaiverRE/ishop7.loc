@@ -41,7 +41,7 @@ class Product extends AppModel
 
 
         if (empty($relatedProduct) && !empty($data['related'])){
-            $sql_prat = '';
+            $sql_part = '';
             foreach ($data['related'] as $v){
                 $sql_part .= "($id,$v),";
             }
@@ -56,7 +56,7 @@ class Product extends AppModel
             //Удалим товары и запишем новые
             if (!empty($result) || count($relatedProduct) != count($data['related'])){
                 \R::exec("DELETE FROM related_product WHERE product_id = ?", [$id]);
-                $sql_prat = '';
+                $sql_part = '';
                 foreach ($data['related'] as $v){
                     $sql_part .= "($id, $v),";
                 }
@@ -77,12 +77,19 @@ class Product extends AppModel
             return;
         }
 
+        if (!empty($filter) && empty($attrs)){
+            \R::exec("DELETE FROM attribute_product WHERE product_id = ?", [$id]);
+            return;
+        }
+
         if (empty($filter) && !empty($attrs)){
-            $sql_prat = '';
+            $sql_part = '';
             foreach ($attrs as $v){
                 $sql_part .= "($v, $id),";
             }
+
             $sql_part = rtrim($sql_part, ',');
+
             \R::exec("INSERT INTO attribute_product (attr_id, product_id) VALUES $sql_part");
             return;
         }
@@ -91,9 +98,11 @@ class Product extends AppModel
             $result = array_diff($filter, $attrs);
 
             //Удалим фильтры и запишем новые
-            if (!empty($result)){
+            if (!empty($result) || count($result) != count($attrs)){
+
+
                 \R::exec("DELETE FROM attribute_product WHERE product_id = ?", [$id]);
-                $sql_prat = '';
+                $sql_part = '';
                 foreach ($attrs as $v){
                     $sql_part .= "($v, $id),";
                 }

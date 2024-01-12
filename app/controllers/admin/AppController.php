@@ -30,6 +30,7 @@ class AppController extends Controller
         }
 
         $param = !empty($data[$param]) ? (int)$data[$param] : null;
+
         if (!$param){
             throw new \Exception('Страница не найдена', 404);
         }

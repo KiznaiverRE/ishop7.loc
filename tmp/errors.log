@@ -7351,3 +7351,115 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | Файл: C:\
 ======================
 [2023-09-29 21:42:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 46 
 ======================
+[2023-10-13 20:19:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 46 
+======================
+[2023-10-13 20:52:10] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 20:53:18] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 20:56:41] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 21:11:56] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 21:13:51] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 21:26:30] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 21:32:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-13 21:32:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-13 21:33:11] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 21:42:06] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Product/delete-gallery.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-13 22:43:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 34 
+======================
+[2023-10-13 22:43:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-13 22:45:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 34 
+======================
+[2023-10-13 22:45:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 34 
+======================
+[2023-10-13 22:45:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 36 
+======================
+[2023-10-13 22:46:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:46:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:46:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:46:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:46:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:46:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:48:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 37 
+======================
+[2023-10-13 22:48:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-14 11:28:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-14 13:05:58] Текст ошибки: OODB Store requires a bean, got: string | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\OODB.php | Строка: 119 
+======================
+[2023-10-14 13:07:00] Текст ошибки: OODB Store requires a bean, got: string | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\OODB.php | Строка: 119 
+======================
+[2023-10-14 13:07:16] Текст ошибки: OODB Store requires a bean, got: string | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\OODB.php | Строка: 119 
+======================
+[2023-10-14 13:08:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 35 
+======================
+[2023-10-14 13:09:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\AppController.php | Строка: 35 
+======================
+[2023-10-14 13:20:57] Текст ошибки: Метод app\controllers\admin\ProductController::deleteAction не найден | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 43 
+======================
+[2023-10-14 14:21:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-14 14:40:20] Текст ошибки: Товар casio-ga-1000-1aer-s не найден | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\ProductController.php | Строка: 17 
+======================
+[2023-10-14 14:40:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-15 21:31:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-17 20:52:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-17 21:39:45] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'attribute_group_id' in 'where clause' | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206 
+======================
+[2023-10-17 21:39:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-17 22:16:54] Текст ошибки: Invalid type: attribute_group | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 78 
+======================
+[2023-10-18 19:27:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 19:27:55] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Filter/attribute.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-18 20:15:46] Текст ошибки: Метод app\controllers\admin\FilterController::attributeEditAction не найден | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 43 
+======================
+[2023-10-18 20:15:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 20:45:05] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction не найден | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 43 
+======================
+[2023-10-18 20:45:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 20:48:09] Текст ошибки: Не найден вид C:\OpenServer\domains\ishop7.loc/app/views/admin\/Filter/group-edit.php | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\base\View.php | Строка: 42 
+======================
+[2023-10-18 20:48:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 21:01:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 21:48:18] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'base' at row 1 | Файл: C:\OpenServer\domains\ishop7.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206 
+======================
+[2023-10-18 21:48:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 21:49:52] Текст ошибки: Метод app\controllers\admin\CurrencyController::editAction не найден | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 43 
+======================
+[2023-10-18 22:16:40] Текст ошибки: Call to undefined method app\controllers\admin\CurrencyController::getRequestID() | Файл: C:\OpenServer\domains\ishop7.loc\app\controllers\admin\CurrencyController.php | Строка: 34 
+======================
+[2023-10-18 22:16:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 22:23:08] Текст ошибки: Метод app\controllers\admin\ProductController::deleteAction не найден | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 43 
+======================
+[2023-10-18 22:23:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================
+[2023-10-18 22:33:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\ishop7.loc\vendor\ishop\core\Router.php | Строка: 49 
+======================

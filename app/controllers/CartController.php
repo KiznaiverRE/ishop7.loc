@@ -58,7 +58,6 @@ class CartController extends AppController
     }
 
     public function viewAction(){
-        debug($_SESSION);
         $this->setMeta('Корзина');
     }
 

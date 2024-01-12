@@ -34,7 +34,7 @@
                                     <td><?=$product['cat'];?></td>
                                     <td><?=$product['title'];?></td>
                                     <td><?=$product['price'];?></td>
-                                    <td><?=$product['status'] ? 'On' : 'Off';?></td>
+                                    <td><?=$product['status'] == 'publish' ? 'On' : 'Off';?></td>
                                     <td>
                                         <a href="<?=ADMIN;?>/product/edit?id=<?=$product['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
                                         <a class="text-danger delete" href="<?=ADMIN;?>/product/delete?id=<?=$product['id'];?>"><i class="fa fa-fw fa-close"></i></a>

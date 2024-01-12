@@ -26,7 +26,7 @@ abstract class Controller
     }
 
     public function getView(){
-        $viewObject = new View($this->route,$this->meta,  $this->layout, $this->view);
+        $viewObject = new View($this->route,$this->meta, $this->layout, $this->view);
         $viewObject->render($this->data);
     }
 
@@ -35,9 +35,9 @@ abstract class Controller
     }
 
     public function setMeta($title = '', $description = '', $keywords = ''){
-        $this->meta['title'] = $title;
-        $this->meta['description'] = $description;
-        $this->meta['keywords'] = $keywords;
+        $this->meta['title'] = hchrs($title);
+        $this->meta['description'] = hchrs($description);
+        $this->meta['keywords'] = hchrs($keywords);
     }
 
     public function isAjax(){

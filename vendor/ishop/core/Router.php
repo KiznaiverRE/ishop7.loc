@@ -35,7 +35,10 @@ class Router
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
                 if (method_exists($controllerObject, $action)){
                     $controllerObject->$action();
-                    $controllerObject->getView();
+                    if (!$controllerObject->isAjax()){
+                        $controllerObject->getView();
+//                        debug($controllerObject);
+                    }
                 }else{
                     throw new \Exception("Метод $controller::$action не найден", 404);
                 }
